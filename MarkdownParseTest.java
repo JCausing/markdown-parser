@@ -21,7 +21,7 @@ public class MarkdownParseTest {
         assertEquals(2, 1+1);
     }
 
-    /*@Test
+    @Test
     public void testGetLinks1() throws IOException {
         assertEquals("[https://something.com, some-thing.html]", 
         MarkdownParse.getLinks(Files.readString(Path.of("test-file.md"))).toString());
@@ -43,5 +43,5 @@ public class MarkdownParseTest {
     public void testGetLinks4() throws IOException {
         assertEquals("[something.html]", 
         MarkdownParse.getLinks(Files.readString(Path.of("test-file4.md"))).toString());
-    }*/
+    }
 }
